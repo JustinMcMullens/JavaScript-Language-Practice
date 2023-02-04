@@ -1,9 +1,18 @@
-//Import the chalk and prgress libraries
+//Import the chalk and progress libraries
 const chalk = require('chalk');
 const ProgressBar = require('progress');
 
 console.log(chalk.blue('\nNative Array ES6 Function Examples'));
 console.log(chalk.blue('----------------------------------'));
+
+//Example of the fill()
+console.log(chalk.cyan('Example of the fill()'));
+//This will replace every value in an array with a static value of your choosing.
+const fillNumbers = [1, 2, 3, 4];
+console.log(`The array before filling each element with a static value: ${fillNumbers}`)
+fillNumbers.fill(5);
+console.log(`The array after filling each element with a static value: ${fillNumbers}\n`)
+
 //Example of the includes()
 console.log(chalk.cyan('Example of the includes()'));
 //This will determine whether an array includes a certain element, returning true or false.
@@ -22,11 +31,11 @@ console.log(`Sorted numbers: ${sortedNumbers}\n`);
 
 //Example of the reverse()
 console.log(chalk.cyan('Example of the reverse()'));
-//This will create a new array that has sorted the numbers from smallest to greatest in the original array.
+//This will create a new array that has reveresed the order of the elements in the original array.
 const forwardNumbers = [1, 2, 3, 4];
 console.log(`Original array of numbers: ${forwardNumbers}`)
 const reversedNumbers = forwardNumbers.reverse();
-console.log(`Reversed array of numbers: ${reversedNumbers}`)
+console.log(`Reversed array of numbers: ${reversedNumbers}\n`)
 
 //Example of the map()
 console.log(chalk.cyan('Example of the map()'));
@@ -54,7 +63,17 @@ console.log(`Original array of numbers: ${spliceNumbers}`)
 //splice(what index to start with, # of elements to remove, index to add[1], index to add[2], index to add[3], index to add[4], etc)
 const removedNumbers = spliceNumbers.splice(2, 3, 3, 4, 5, 6);
 console.log(`Original array about numbers have been spliced in and out: ${spliceNumbers}`);
-console.log(`Numbers that were spliced out of the original array: ${removedNumbers}`);
+console.log(`Numbers that were spliced out of the original array: ${removedNumbers}\n`);
+
+//Example of the join()
+console.log(chalk.cyan('Example of the join()'));
+//This function will join all the elements of the array into a string
+const vehicles = ['car', 'boat', 'plane', 'train', 'motorcycle'];
+console.log('The array before it is joined together into a string:');
+console.log(vehicles);
+const vehiclesString = vehicles.join(', ');
+console.log('The array after it is joined together into a string:');
+console.log(vehiclesString);
 
 
 //Example of recursion
