@@ -4,9 +4,7 @@ Within this program you with go learn about different functions that you can use
 
 The JavaScript program that I have written is meant to be used as a teaching example that would help people new to the laguage understand some of the basics fuctions that relate to arrays, as well as introduce some other topics that can be complex, but give you simple easy to follow examples. These examples include recursion, using build in npm node modules and throwing/handling execptions.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[JavaScript Array Teaching Tool Video](https://youtu.be/PSx0Iomik6Y)
 
 # Development Environment
 
@@ -26,6 +24,8 @@ The JavaScript program that I have written is meant to be used as a teaching exa
 
 - [W3schools](https://www.w3schools.com/js)
 - [GeeksForGeeks](https://www.geeksforgeeks.org/)
+- [StackOverFlow](https://stackoverflow.com/)
+- [DeveloperMozilla](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
 
 # Future Work
 
